@@ -1,4 +1,27 @@
 -- SELECT * FROM salaries;
+-- SELECT *
+-- FROM (SELECT *
+--     FROM salaries
+--     ORDER BY salary_in_usd DESC
+--     LIMIT 2) as t
+-- ORDER BY salary_in_usd
+-- LIMIT 1
+
+SELECT *
+FROM salaries
+ORDER BY salary_in_usd DESC
+LIMIT 1 OFFSET 1
+
+-- SELECT job_title,
+--     ROUND(AVG(salary_in_usd),0) as AVG_salary,
+--     (SELECT max(salary_in_usd) from salaries) as max_salary,
+--     ROUND(avg(salary_in_usd),0)-
+--         (SELECT max(salary_in_usd)
+--         FROM salaries)
+
+-- FROM salaries
+-- GROUP BY job_title
+
 
 
 
