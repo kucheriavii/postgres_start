@@ -1,19 +1,22 @@
 -- SELECT * FROM salaries LIMIT 10;
 
--- all data + column exp_level_full
-SELECT *, 
-    CASE 
-        WHEN exp_level = 'EN'
-        THEN 'Entry-level'
-        WHEN exp_level = 'MI'
-        THEN 'Mid-level'
-        WHEN exp_level = 'SE'
-        THEN 'Senior-level'
-        WHEN exp_level = 'EX'
-        THEN 'Excutive-level'
-        ELSE 'Other'
-    END AS exp_level_full
+SELECT COUNT(*) - COUNT(salary_in_usd)
 FROM salaries
+
+-- all data + column exp_level_full
+-- SELECT *, 
+--     CASE 
+--         WHEN exp_level = 'EN'
+--         THEN 'Entry-level'
+--         WHEN exp_level = 'MI'
+--         THEN 'Mid-level'
+--         WHEN exp_level = 'SE'
+--         THEN 'Senior-level'
+--         WHEN exp_level = 'EX'
+--         THEN 'Excutive-level'
+--         ELSE 'Other'
+--     END AS exp_level_full
+-- FROM salaries
 -- **********************************
 
 
