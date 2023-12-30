@@ -22,6 +22,20 @@ SELECT
 	t.TrackId
 	, t.Name 
 	, a.Title 
-	, a.ArtistId 
+	, a.ArtistId
+	, ar.Name 
 FROM Track t 
 JOIN Album a ON t.AlbumId = a.AlbumId 
+JOIN Artist ar ON a.ArtistId = ar.ArtistId 
+WHERE ar.Name LIKE "A%"
+LIMIT 100
+
+SELECT 
+	ar.Name 
+	, COUNT(t.TrackId) AS countSongs
+FROM Track t 
+JOIN Album a ON t.AlbumId = a.AlbumId 
+JOIN Artist ar ON a.ArtistId = ar.ArtistId 
+WHERE ar.Name LIKE "A%"
+GROUP BY ar.Name 
+ORDER BY countSongs DESC 
