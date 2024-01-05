@@ -1,0 +1,21 @@
+--SELECT EMAIL
+--FROM Customer c
+--UNION
+--SELECT Email
+--FROM Employee e 
+--
+--SELECT 
+--	'Customer' as type
+--	, EMAIL
+--FROM Customer c 
+--
+----INTERSECT 
+----UNION
+--UNION ALL
+--
+--SELECT 
+--	"Employer" as type
+--	, EMAIL
+--FROM Employee e 
+	
+	
