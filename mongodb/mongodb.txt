@@ -1,2 +1,4 @@
 test
 10 - Time To Get Started.mp4 doned
+11 - Shell vs Drivers.mp4
+12 - 12 - MongoDB Clients The Big Picture
