@@ -3,3 +3,4 @@ test
 11 - Shell vs Drivers.mp4
 12 - MongoDB Clients The Big Picture
 13 - Course Outline
+14 - How To Get The Most Out Of The Course
