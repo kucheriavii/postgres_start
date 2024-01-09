@@ -25,3 +25,15 @@ graph TB
 <div style="color:#f0f055; background:#333; height:50px; line-height:50px; padding-left:5px" >
     db.flightData.insertOne({code})
 </div>
+
+добавити елемент
+
+<div style="color:#f0f055; background:#333; height:120%; line-height:50px; padding-left:5px" >    
+    db.flightData.insertOne({ <br>
+    "departureAirport": "MUC", <br>
+    "arrivalAirport": "SFO", <br>
+    "aircraft": "Airbus A380", <br>
+    "distance": 12000, <br>
+    "intercontinental": true<br>
+    })
+</div>
