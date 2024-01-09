@@ -5,3 +5,4 @@ test
 13 - Course Outline
 14 - How To Get The Most Out Of The Course
 18 - Creating Databases Collections
+20 - Comparing JSON BSON.mp4
