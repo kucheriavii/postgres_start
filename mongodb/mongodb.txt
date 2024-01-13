@@ -10,3 +10,4 @@ test
 21 - Create Read Update Delete CRUD MongoDB
 22 - Finding Inserting Deleting Updating Elements
 23 - Understanding insertMany
+25 - update vs updateMany
