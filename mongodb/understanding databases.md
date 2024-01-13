@@ -37,3 +37,20 @@ graph TB
     "intercontinental": true<br>
     })
 </div>
+ переглянути елменти
+<div style="color:#f0f055; background:#333; height:120%; line-height:50px; padding-left:5px" >    
+    db.flightData.find().pretty()
+</div>
+ видалити елмент
+<div style="color:#f0f055; background:#333; height:120%; line-height:50px; padding-left:5px" >    
+    db.flightData.deleteOne({departureAirport: "TXL"})
+</div>
+ Змінити елменти
+<div style="color:#f0f055; background:#333; height:120%; line-height:50px; padding-left:5px" >    
+    db.flightData.updateMany({}, {$set: {marker: "toDelete"}})
+</div>
+ Видалити елменти
+<div style="color:#f0f055; background:#333; height:120%; line-height:50px; padding-left:5px" >    
+    db.flightData.deleteMany({marker: "toDelete"})
+</div>
+

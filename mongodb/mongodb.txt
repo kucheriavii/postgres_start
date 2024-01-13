@@ -8,3 +8,4 @@ test
 20 - Comparing JSON BSON
 10.01.2023 nothing done
 21 - Create Read Update Delete CRUD MongoDB
+22 - Finding Inserting Deleting Updating Elements
