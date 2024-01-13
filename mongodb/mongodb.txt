@@ -6,4 +6,5 @@ test
 14 - How To Get The Most Out Of The Course
 18 - Creating Databases Collections
 20 - Comparing JSON BSON
-10.01.2023 nothing doned
+10.01.2023 nothing done
+21 - Create Read Update Delete CRUD MongoDB
