@@ -53,4 +53,21 @@ graph TB
 <div style="color:#f0f055; background:#333; height:120%; line-height:50px; padding-left:5px" >    
     db.flightData.deleteMany({marker: "toDelete"})
 </div>
+ Додати декілька елементів
+<div style="color:#f0f055; background:#333; height:120%; line-height:50px; padding-left:5px" >    
+    db.flightData.insertMany([{
+    "departureAirport": "MUC",
+    "arrivalAirport": "SFO",
+    "aircraft": "Airbus A380",
+    "distance": 12000,
+    "intercontinental": true
+  },  {
+    "departureAirport": "LHR",
+    "arrivalAirport": "TXL",
+    "aircraft": "Airbus A320",
+    "distance": 950,
+    "intercontinental": false
+  }
+])
+</div>
 
