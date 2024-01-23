@@ -11,3 +11,4 @@ test
 22 - Finding Inserting Deleting Updating Elements
 23 - Understanding insertMany
 25 - update vs updateMany
+32 - Wrap Up
