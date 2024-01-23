@@ -5,3 +5,4 @@ studing of sql
 #19.01.2024 data camp
 #20.01.2024 nothing done
 #21.01.2024 nothing done
+#23.01.2024 I'll to do something
